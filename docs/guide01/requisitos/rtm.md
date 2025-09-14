@@ -1,26 +1,45 @@
 # Especificación de requisitos de software
 
-## Requisitos funcionales
-Los requisitos funcionales se expresan en lenguaje técnico a partir de los requisitos funcionales mandatorios que se han identificado en la categorización de requisitos de usuario.
-Ello implica el desarrollo de los siguientes puntos:
-- Puede escribirse en pseudocódigo incluyendo anotaciones de fórmulas de cálculo matemático según sea el caso. Este escenario es factible cuando el requisito ha sido claramente definido y validado
-  por el usuario/cliente.
-- Formato de interfaz de usuario y GUI como parte de la capa de presentación (Front End) del aplicativo de software: Incluye la interfaz de usuario para el sistema como propuesta inicial a las necesidades
-  del cliente. Deberá incluirlo en el Anexo “A”. Este escenario es factible cuando los requisitos no se encuentran definidos desde la perspectiva del usuario o existe dificultad para su obtención y entendimiento.
-  Puede utilizar cualquier herramienta mockup libre para diseñar sus interfaces: https://careerfoundry.com/en/blog/ux-design/free-wireframing-tools/
-  
-## Requisitos no funcionales
-- Portabilidad del software
-- Facilidad de mantenimiento: Que implica el grado de conocimiento de la herramienta de desarrollo del software, así como de la disponibilidad de personal técnico apropiado entre otros.
-- Usabilidad del software
-- Velocidad de procesamiento de datos
-- Restricciones técnicas del software: Por ejemplo, restricciones de diseño debido al sistema operativo utilizado, el entorno de la plataforma, problemas de compatibilidad con alguna aplicación interna o
-  externa a la organización, estándar para alguna aplicación determinada, entre otros.
-
-
-# Tips para mayor claridad
-## Propósito
-Definir los requisitos técnicos mínimos (RTM) del proyecto de software.
-
-## Qué se espera
-- Que sea el imput para el desglose de tareas de la planificación del proyecto, para su posterior diseño e implementación.
+## Requisitos Funcionales
+### RF-01: Gestión de Mesas
+**Descripción:**  
+El sistema debe permitir la apertura, cierre y asignación de mesas a mozos.
+### RF-02: Toma y Envío de Pedidos
+**Descripción:**  
+El mozo registra un pedido en su dispositivo y este debe enviarse en tiempo real a la cocina.
+### RF-03: Comunicación en Tiempo Real con Cocina
+**Descripción:**  
+Los pedidos ingresados deben visualizarse en la pantalla de cocina inmediatamente.  
+**Implementación técnica:**  
+- Cada pedido se actualiza en la interfaz de cocina sin necesidad de refrescar manualmente.  
+### RF-04: Modificación/Anulación de Pedidos
+**Descripción:**  
+Los pedidos pueden modificarse o anularse siempre que el estado sea *pendiente*.
+### RF-05: Estados de Pedido
+**Descripción:**  
+El sistema debe manejar los estados: *pendiente, en preparación, listo*.
+### RF-06: CRUD de Platos, Precios y Categorías
+**Descripción:**  
+El administrador debe poder crear, leer, actualizar y eliminar platos del menú.
+### RF-07: Gestión de Usuarios
+**Descripción:**  
+El sistema debe diferenciar roles: *Administrador, Mozo, Cocina*.  
+### RF-08: Generación de Cuenta Detallada
+**Descripción:**  
+El sistema debe generar un comprobante con los ítems consumidos, cantidades y subtotales.
+### RF-09: Registro de Pagos
+**Descripción:**  
+El sistema debe registrar pagos en efectivo y tarjeta.
+### RF-10: Reportes Básicos
+**Descripción:**  
+El sistema debe generar reportes de ventas diarias, pedidos por mesa y estado de caja.
+## Requisitos No Funcionales
+- **Portabilidad:** El sistema debe ejecutarse en Windows 10/11 con .NET MAUI y ser accesible desde tablets Android conectadas a la red local.
+- **Mantenibilidad:** El código debe seguir estándares de C# y patrones de diseño (MVVM), facilitando correcciones y mejoras.
+- **Usabilidad:** La interfaz debe ser intuitiva, con botones grandes y navegación sencilla para mozos y cocina.
+- **Velocidad de procesamiento:** El sistema debe registrar pedidos en < 2 segundos y actualizar en cocina en tiempo real (< 1 segundo de latencia en red local).
+- **Restricciones técnicas:**
+    - Base de datos MySQL como motor principal.
+    - Comunicación en red local (LAN).
+    - Dependencia de Visual Studio 2022 como IDE principal.
+    - Framework: .NET 7/8 con MAUI.
