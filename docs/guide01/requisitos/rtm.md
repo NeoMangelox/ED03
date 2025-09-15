@@ -43,3 +43,5 @@ El sistema debe generar reportes de ventas diarias, pedidos por mesa y estado de
     - Comunicación en red local (LAN).
     - Dependencia de Visual Studio 2022 como IDE principal.
     - Framework: .NET 7/8 con MAUI.
+## Prototipo no funcional
+https://www.figma.com/proto/4wBwUvjQrFGwKMhntmZdTj/POS-Restaurante-Proyecto?page-id=0%3A1&node-id=2-4&p=f&viewport=331%2C629%2C0.28&t=jBfD6N3HLExX0O9M-1&scaling=scale-down&content-scaling=fixed
