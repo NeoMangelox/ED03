@@ -6,3 +6,4 @@ Una vez que los equipos de desarrollo han definido su proyecto de software, podr
 - [Negociación y discusión de requisitos de usuario (Opcional)](negociacion.md)
 - [Especificación de requisitos de software](rtm.md)
 - [Validación de los requisitos de software](validacion.md)
+- [Principales reglas de negocio](rdn.md)
