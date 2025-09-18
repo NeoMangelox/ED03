@@ -11,7 +11,8 @@ Se define el ED, sus miembros y los roles en el equipo.
 
 | Rol | Nombre | Responsabilidades |
 |-----|--------|-------------------|
-| Jefe de Proyecto | Alumno 1 | Coordinar tareas, comunicación con docente |
-| Desarrollador | Alumno 2 | Programación backend |
-| Desarrollador | Alumno 3 | Programación frontend |
-| Tester | Alumno 4 | Diseño y ejecución de pruebas |
+| Jefe de Proyecto | Angel León | Coordinar tareas, comunicación con docente |
+| Desarrollador | Alvaro Melendez | Programación backend |
+| Desarrollador | Ariana Languasco | Programación frontend |
+| Tester | Juan Campos | Diseño y ejecución de pruebas |
+| Analista de equisitos | Juan Campos | Diseño y ejecución de pruebas |
