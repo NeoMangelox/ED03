@@ -16,7 +16,7 @@ El equipo de desarrollo (ED) está conformado por 4 integrantes. Cada rol ha sid
 | Jefe de Proyecto       | León Angel       | Coordinar tareas, gestionar comunicación con el docente, supervisar avances y mitigar riesgos.            |
 | Analista de Requisitos | Campos Juan      | Relevar requisitos, documentarlos en especificaciones claras y verificar su alineación con el alcance.    |
 | Desarrollador Backend  | Meléndez Alvaro  | Diseñar e implementar la base de datos, API y lógica de negocio.                                          |
-| Desarrollador Frontend | Languasco Ariaan | Diseñar e implementar la interfaz de usuario y conectarla con el backend.                                 |
+| Desarrollador Frontend | Languasco Ariana | Diseñar e implementar la interfaz de usuario y conectarla con el backend.                                 |
 | Responsable de Pruebas | TODOS -{León}    | Definir, ejecutar y documentar pruebas en paralelo al desarrollo, garantizando calidad en cada iteración. |
 
 ## Observación
