@@ -17,7 +17,7 @@ El equipo de desarrollo (ED) está conformado por 4 integrantes. Cada rol ha sid
 | Analista de Requisitos | Campos Juan      | Relevar requisitos, documentarlos en especificaciones claras y verificar su alineación con el alcance.    |
 | Desarrollador Backend  | Meléndez Alvaro  | Diseñar e implementar la base de datos, API y lógica de negocio.                                          |
 | Desarrollador Frontend | Languasco Ariana | Diseñar e implementar la interfaz de usuario y conectarla con el backend.                                 |
-| Responsable de Pruebas | TODOS -{León}    | Definir, ejecutar y documentar pruebas en paralelo al desarrollo, garantizando calidad en cada iteración. |
+| Responsable de Pruebas | TODOS            | Definir, ejecutar y documentar pruebas en paralelo al desarrollo, garantizando calidad en cada iteración. |
 
 ## Observación
 El rol de **Responsable de Pruebas** será compartido de forma paralela entre los desarrolladores y el analista, de modo que mientras se construyen módulos específicos, otro miembro puede preparar y ejecutar pruebas sobre las funcionalidades ya desarrolladas. Esto asegura que todos los integrantes estén activos en todo momento y que la calidad del producto se valide de manera continua.  
