@@ -17,16 +17,6 @@ El plan incluye las siguientes etapas clave:
 
 ---
 
-## 🖼️ Imagen del plan
-
-A continuación se presenta una imagen representativa del cronograma desarrollado en ProjectLibre:
-
-![Planificación del proyecto](docs/guide02/planificacion/plan_prototipo.png)
-
-> 📸 *La imagen cuenta con una resolución de 300 dpi para una mejor visualización.*
-
----
-
 ## 📂 Archivos disponibles
 
 - 📄 **[Ver PDF de planificación](docs/guide02/planificacion/plan_prototipo.pdf)**  
