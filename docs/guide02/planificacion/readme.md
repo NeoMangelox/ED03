@@ -8,7 +8,8 @@ Colocar el plan inicial del proyecto de prototipo de software utilizando la herr
 - Deseable que la imagen tenga resolución 300 dpi
 - También puede incrustar el archivo .pod del cronograma inicial de trabajo
 
-[📄 Ver PDF de planificación](./plan_prototipo.pdf)
+[📄 Ver PDF de planificación](./Sistema%20POS%20para%20restaurante%20completo.pdf)
+
 
 
 
