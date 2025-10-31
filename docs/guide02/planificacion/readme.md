@@ -10,6 +10,9 @@ Colocar el plan inicial del proyecto de prototipo de software utilizando la herr
 
 [📄 Ver PDF de planificación](./Sistema%20POS%20para%20restaurante%20completo.pdf)
 
+[📊 Descargar archivo .POD](./Sistema%20POS%20para%20restaurante%20completo%20%281%29.pod)
+
+
 
 
 
