@@ -1,4 +1,4 @@
-# Justificacióm de Obtención de Requisitos de Usuario	
+# Justificación de Obtención de Requisitos de Usuario	
 > [!IMPORTANT]
 > **Acerca del cliente:** Durante 1 semana se sostuvo comunicación con el cliente, pero se decidió terminar la relación tras los constantes incumplimientos de reuniones y que el cliente dejó de responder a los mensajes
 
