@@ -5,11 +5,11 @@ Muestra las dependencias entre las actividades, el tiempo estimado requerido par
 No obstante, la herramienta recomendada para diseñar el cronograma de trabajo es el Project Libre (https://www.projectlibre.com/)
 
 ## Cronograma en formato Project Libre
-[Descargar editable (.pod)](Sample2Project.pod?raw=1)
+[Descargar editable (.pod)](SistemaPOSpararestaurantecompleto.pod?raw=1)
 docs/guia01/planificacion/
   Sample2Project.pod
   Sample2Projectlibre.pdf
-[Ver cronograma (PDF)](Sample2Projectlibre.pdf) · [Editable (.pod)](Sample2Project.pod)
+[Ver cronograma (PDF)](SistemaPOSpararestaurantecompleto.pdf) · [Editable (.pod)](SistemaPOSpararestaurantecompleto.pod)
 
 > **Descarga:** haga clic derecho en “Editable (.pod)” y elija **Guardar enlace como…**.
 > **Nota:** si ve “error loading page”, haga clic derecho y pruebe **Abrir enlace en una pestaña nueva**
