@@ -1,37 +1,30 @@
-## Descripción detallada de requisitos funcionales mandatorios del software
+## Descripción detallada de requisitos funcionales mandatorios del software (MVP v1.0)
 
-Este apartado ya fue trabajado en la sección "Requisitos funcionales" de:
+Este apartado detalla los requisitos funcionales mandatorios para el desarrollo del **MVP (Producto Mínimo Viable) v1.0**, enfocándose exclusivamente en el flujo central de operación. Las funcionalidades aquí descritas son las esenciales para validar el modelo de negocio y se basan en la simplificación deliberada de procesos, posponiendo características complejas para futuras versiones, tal como se define en el documento "MVP - Versión 1.0 El Flujo Central".
 
-[RTM de la Guía 01](../../guide01/requisitos/rtm.md#Especificación-de-requisitos-de-software)
+*   **Gestión de Mesas (Simplificada):**
+    Este módulo permite visualizar el estado de las mesas y gestionar su ciclo de vida básico. Para el MVP, se implementa un mapa de mesas visual con únicamente dos estados mandatorios:
+    *   **Disponible:** La mesa está libre y puede ser asignada a clientes.
+    *   **Ocupada:** La mesa tiene un pedido activo.
+    Las acciones principales son "Abrir/Marcar mesa como Ocupada" al tomar el primer pedido y "Cerrar/Marcar mesa como Disponible" al registrar el pago.
+    *   **Simplificación del MVP:** Se pospone el estado "en camino" (pedido en preparación) para simplificar la gestión. El estado del pedido se manejará de forma independiente en el módulo de cocina.
 
-* **Gestión de mesas:** Este módulo permite abrir, cerrar y asignar mesas a mozos dentro del sistema. Su objetivo es mantener un control
-preciso de la ocupación del local en tiempo real, evitando confusiones o duplicaciones. Las mesas se pueden encontrar en 3 estados:
-Disponible (mesa sin clientes), en camino (pedido en preparacion), ocupado (mesa con clientes).
-* **Toma y envío de pedidos por mozo:** El sistema permite que el mozo registre los pedidos directamente desde una interfaz digital
-(por ejemplo, una tablet o terminal). Cada pedido incluye los platos seleccionados, cantidad, observaciones y número de mesa.
-Una vez confirmado, el pedido se envía automáticamente al área de cocina, eliminando la necesidad de notas manuales y reduciendo
-errores de comunicación.
-* **Comunicación en tiempo real con cocina:** Este requisito garantiza una sincronización inmediata entre el sistema del mozo y la interfaz
-de cocina. En cuanto un pedido es registrado, aparece instantáneamente en la pantalla de cocina con todos los detalles necesarios
-(platos, cantidades, comentarios, hora, mesa). De esta forma, el personal de cocina puede comenzar la preparación sin demoras,
-mejorando la eficiencia y los tiempos de atención.
-* **Modificación/anulación de pedidos antes de preparación:** Permite al mozo editar o cancelar pedidos mientras aún no han sido
-procesados por cocina. Esto otorga flexibilidad ante errores en la toma de pedidos o cambios de decisión del cliente.
-* **Estados de pedido:** Cada pedido pasa por diferentes estados operativos, como pendiente, en preparación o listo para entregar.
-Estos estados se actualizan automáticamente conforme el personal de cocina avanza en su trabajo. El mozo puede visualizar estos
-estados en su interfaz, lo que le permite saber cuándo retirar un plato y entregarlo al cliente, mejorando la coordinación interna.
-* **CRUD de platos, precios y categorías:** El administrador tiene acceso a un módulo donde puede crear, leer, actualizar y eliminar
-(CRUD) los elementos del menú. Esto incluye platos, bebidas, precios, descripciones y categorías (entradas, principales, postres,
-etc.). Los cambios se reflejan automáticamente en todas las interfaces del sistema, garantizando que el menú esté siempre actualizado
-y evitando inconsistencias.
-* **Gestión de usuarios:** El sistema maneja diferentes roles de usuario (mozo, cocina, administrador), cada uno con niveles de acceso
-específicos. Por ejemplo, los mozos pueden tomar pedidos, pero no modificar precios; cocina puede cambiar estados de preparación,
-pero no acceder a reportes; y el administrador tiene acceso completo. Esto asegura la seguridad y el control sobre las operaciones
-del sistema.
-* **Generación de cuenta detallada:** Cuando los clientes finalizan su consumo, el sistema genera una cuenta detallada por mesa, con el
-desglose de platos pedidos, cantidades, precios unitarios, impuestos y total a pagar. La cuenta puede imprimirse o mostrarse en
-pantalla. Este proceso minimiza errores manuales y agiliza el cierre de las mesas.
-* **Registro de pagos:** El sistema permite registrar los pagos realizados por los clientes, indicando el método de pago (efectivo,
-tarjeta, transferencia, etc.) y el monto recibido.
-* **Reportes básicos:** Incluye un módulo que genera reportes automáticos sobre las operaciones del día: Cantidad de pedidos, ingresos promedios
-tiempo de espera promedio, platillos mas pedidos, platillos menos pedidos, etc.
+*   **Toma y Envío de Pedidos (El Corazón del MVP):**
+    El sistema permite que el mozo seleccione una mesa en estado **Ocupada** y registre los platos solicitados a través de una interfaz digital. Esta interfaz debe mostrar el menú (estático para esta versión) y permitir seleccionar ítems, cantidades y añadir una observación simple. La acción clave es el botón **"Enviar a Cocina"**, que notifica automáticamente el pedido al área de preparación.
+
+*   **Comunicación con Cocina y Estados de Pedido (Unificados):**
+    Este requisito garantiza que los pedidos enviados por los mozos aparezcan instantáneamente en una vista simple para la cocina. Para el MVP, los pedidos tendrán dos estados mínimos:
+    *   **Pendiente:** Aparece en la lista de cocina en cuanto el mozo lo envía.
+    *   **Listo para entregar:** La cocina marca el pedido completo de una mesa como listo.
+    El mozo puede visualizar en su interfaz cuándo un pedido cambia a "Listo para entregar".
+    *   **Simplificación del MVP:** Se pospone un flujo detallado por plato (ej. "entrada lista, main en preparación"). Para la v1.0, se marca toda la comanda de una mesa como "lista".
+
+*   **Menú (Solo Lectura):**
+    El sistema debe mostrar un menú estático para que los mozos puedan tomar los pedidos. Este menú debe incluir los platos, sus precios y estar organizado por categorías (Ej: Entradas, Principales, etc.).
+    *   **Simplificación del MVP:** No se requiere el módulo CRUD (Crear, Leer, Actualizar, Borrar) para la administración del menú. Para esta versión, el menú puede ser cargado desde un archivo estático (como un JSON) o estar hardcodeado en la aplicación.
+
+*   **Generación de Cuenta y Cierre de Mesa:**
+    Cuando una mesa está **Ocupada**, el mozo debe tener una opción para "Ver Cuenta" o "Cerrar Mesa". La funcionalidad mandatoria es:
+    *   Calcular y mostrar el total a pagar sumando todos los platos pedidos en esa mesa.
+    *   Proveer un botón de **"Registrar Pago y Cerrar Mesa"** que cambie el estado de la mesa a **Disponible**.
+    *   **Simplificación del MVP:** No se requiere integración con métodos de pago complejos ni desglose de impuestos. Un simple botón que registre el pago como "Pagado" es suficiente para el cierre del ciclo.
