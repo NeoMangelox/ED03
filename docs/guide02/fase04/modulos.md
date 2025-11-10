@@ -66,3 +66,9 @@ A continuación se describen los módulos principales del sistema POS, su funcio
 
 ---
 
+## Diagrama de Módulos (Gráfico)
+
+![Diagrama de módulos POS Restaurante](Diagrama_Restaurante POS.png)
+
+
+
