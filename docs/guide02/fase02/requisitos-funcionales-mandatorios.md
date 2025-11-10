@@ -1,6 +1,6 @@
-## Descripción detallada de requisitos funcionales mandatorios del software (MVP v1.0)
+## Descripción detallada de requisitos funcionales mandatorios del software
 
-Este apartado detalla los requisitos funcionales mandatorios para el desarrollo del **MVP (Producto Mínimo Viable) v1.0**, enfocándose exclusivamente en el flujo central de operación. Las funcionalidades aquí descritas son las esenciales para validar el modelo de negocio y se basan en la simplificación deliberada de procesos, posponiendo características complejas para futuras versiones, tal como se define en el documento "MVP - Versión 1.0 El Flujo Central".
+Este apartado detalla los requisitos funcionales mandatorios para el desarrollo del sistema POS, enfocándose exclusivamente en el flujo central de operación. Las funcionalidades aquí descritas son las esenciales para validar el modelo de negocio y se basan en la simplificación deliberada de procesos, posponiendo características complejas para futuras versiones.
 
 *   **Gestión de Mesas (Simplificada):**
     Este módulo permite visualizar el estado de las mesas y gestionar su ciclo de vida básico. Para el MVP, se implementa un mapa de mesas visual con únicamente dos estados mandatorios:
