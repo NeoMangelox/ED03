@@ -1,32 +1,68 @@
-## Módulos del Prototipo POS Restaurante
+# Módulos del Prototipo POS Restaurante
 
-### 1. Gestión de Mesas
-- **Objetivo:** Administrar visualmente las mesas.
-- **Opciones principales:** Abrir Mesa, Cerrar Mesa.
-- **Entrada:** Selección de mesa por el mozo.
-- **Salida:** Estado actualizado de la mesa.
+A continuación se describen los módulos principales del sistema POS, su funcionalidad, entradas, salidas y opciones disponibles.
 
-### 2. Toma y Envío de Pedidos
-- **Objetivo:** Registrar pedidos y enviarlos a cocina.
-- **Opciones principales:** Selección de platos, agregar observaciones, enviar a cocina.
-- **Entrada:** Mesa ocupada y selección de productos.
-- **Salida:** Pedido visible en cocina.
+---
 
-### 3. Comunicación con Cocina
-- **Objetivo:** Mostrar pedidos pendientes y marcar como listos.
-- **Opciones principales:** Ver pedidos pendientes, marcar listo para entregar.
-- **Entrada:** Pedidos enviados.
-- **Salida:** Estado actualizado para mozo.
+## 1️⃣ Gestión de Mesas
+**Objetivo:** Administrar visualmente las mesas del restaurante.  
 
-### 4. Menú (Solo Lectura)
-- **Objetivo:** Consultar el menú de platos y precios.
-- **Opciones principales:** Consultar platos y precios.
-- **Entrada:** Consulta del mozo.
-- **Salida:** Información visible en pantalla.
+**Opciones principales:**
+- Abrir Mesa
+- Cerrar Mesa
 
-### 5. Generación de Cuenta y Cierre
-- **Objetivo:** Calcular total y registrar pago para liberar mesa.
-- **Opciones principales:** Calcular subtotal, registrar pago, liberar mesa.
-- **Entrada:** Pedidos consumidos.
-- **Salida:** Total de cuenta y mesa disponible.
+**Entrada:** Selección de mesa por parte del mozo.  
+**Salida:** Estado actualizado de la mesa (Disponible/Ocupada).
+
+---
+
+## 2️⃣ Toma y Envío de Pedidos
+**Objetivo:** Registrar los pedidos de los clientes y enviarlos a cocina de forma eficiente.  
+
+**Opciones principales:**
+- Selección de platos del menú
+- Agregar cantidad y observaciones
+- Enviar pedido a cocina
+
+**Entrada:** Mesa ocupada y selección de productos.  
+**Salida:** Pedido registrado y visible en cocina.
+
+---
+
+## 3️⃣ Comunicación con Cocina
+**Objetivo:** Mostrar los pedidos pendientes y actualizar su estado cuando estén listos para entregar.  
+
+**Opciones principales:**
+- Ver pedidos pendientes
+- Marcar pedidos como “Listo para entregar”
+
+**Entrada:** Pedidos enviados desde los mozos.  
+**Salida:** Estado actualizado del pedido visible para el mozo.
+
+---
+
+## 4️⃣ Menú (Solo Lectura)
+**Objetivo:** Permitir la consulta rápida del menú de platos y sus precios.  
+
+**Opciones principales:**
+- Consultar categorías de platos
+- Consultar precios y descripciones
+
+**Entrada:** Solicitud de información por parte del mozo.  
+**Salida:** Información del menú visible en pantalla.
+
+---
+
+## 5️⃣ Generación de Cuenta y Cierre
+**Objetivo:** Calcular el total de la cuenta, registrar el pago y liberar la mesa.  
+
+**Opciones principales:**
+- Calcular subtotal de pedidos
+- Registrar pago simple
+- Cambiar estado de la mesa a Disponible
+
+**Entrada:** Pedidos consumidos en la mesa.  
+**Salida:** Total de la cuenta, pago registrado y mesa disponible.
+
+---
 
