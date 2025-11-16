@@ -16,7 +16,7 @@ Sistema operativo: Windows 10 / 11
 
 Tarjeta gráfica: Integrada (suficiente para MAUI)
 
-Este equipo fue utilizado para programar en Visual Studio, probar la aplicación, compilar el proyecto MAUI y ejecutar el emulador Android en caso de ser necesario.
+*Este equipo fue utilizado para programar en Visual Studio, probar la aplicación, compilar el proyecto MAUI y ejecutar el emulador Android en caso de ser necesario.*
 
 ## 📱 Dispositivo móvil 
 
