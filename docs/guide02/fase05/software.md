@@ -122,7 +122,7 @@ Framework: .NET MAUI 8.0+
 
 Patrón arquitectónico: MVVM
 
-Base de datos: (Pon lo que usaste: SQLite / JSON / Ninguna)
+*Base de datos: MySQL*
 
 Plataforma objetivo: Windows
 
