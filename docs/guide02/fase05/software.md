@@ -82,7 +82,7 @@ Herramienta	Uso
 - XAML	Diseño visual de las interfaces
 - .NET MAUI	Framework principal de la aplicación
 - Visual Studio 2022	IDE para compilar, probar y depurar
-*- SQLite / JSON (si aplica)	Manejo de datos o almacenamiento local*
+*- MySQL Para controlar la base de datos*
 - GitHub	Control de versiones y documentación
 📍 5. Pruebas
 
