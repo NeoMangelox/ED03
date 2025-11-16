@@ -9,7 +9,6 @@ public LoginViewModel(IAuthService authService)
     LoginCommand = new Command(async () => await OnLoginClicked());
 }
 
-// MÉTODO REEMPLAZADO TAL COMO PEDISTE
 private async Task OnLoginClicked()
 {
     if (IsBusy)
