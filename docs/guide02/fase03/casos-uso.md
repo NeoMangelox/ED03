@@ -106,67 +106,10 @@ El pedido queda disponible para ser entregado por el mozo.
 
 **Reglas de negocio:**
 - No se puede registrar un pago sin pedido finalizado.  
-- Solo los mozos o administradores pueden cerrar una cuenta.
+- Solo los mozos pueden cerrar una cuenta.
 
 **Postcondición:**  
 El pedido queda cerrado y la mesa vuelve a estado “Libre”.
 
 ---
-
-### CU06 – Generar Reporte de Ventas
-**Actor principal:** Administrador  
-**Objetivo:** Generar reportes diarios de ventas y control de caja.  
-**Precondiciones:** Deben existir pedidos finalizados con pago registrado.  
-
-**Flujo principal:**
-1. El administrador selecciona “Generar Reporte”.
-2. Define el rango de fechas o turno.
-3. El sistema consolida los pedidos pagados.
-4. Muestra los resultados en pantalla y permite exportar a PDF.
-
-**Reglas de negocio:**
-- Solo el administrador puede generar reportes.  
-- Los datos del reporte deben coincidir con los pagos registrados.
-
-**Postcondición:**  
-Se genera un reporte disponible para impresión o descarga.
-
----
-
-### CU07 – Gestionar Platos y Precios
-**Actor principal:** Administrador  
-**Objetivo:** Permitir al administrador agregar, editar o eliminar platos del menú.  
-**Precondiciones:** El usuario debe tener rol de administrador.  
-
-**Flujo principal:**
-1. El administrador accede al módulo de gestión del menú.
-2. Selecciona la opción agregar, editar o eliminar.
-3. El sistema actualiza la información en la base de datos.
-
-**Reglas de negocio:**
-- No se pueden eliminar platos con pedidos activos.  
-- Los precios deben ser valores positivos.
-
-**Postcondición:**  
-El menú se actualiza correctamente.
-
----
-
-### CU08 – Gestionar Usuarios
-**Actor principal:** Administrador  
-**Objetivo:** Administrar los usuarios del sistema (mozos, cocineros, administradores).  
-**Precondiciones:** El usuario debe tener rol de administrador.  
-
-**Flujo principal:**
-1. El administrador ingresa al módulo de usuarios.
-2. Visualiza la lista de cuentas registradas.
-3. Crea, edita o elimina un usuario.
-4. El sistema guarda los cambios realizados.
-
-**Reglas de negocio:**
-- No se puede eliminar la cuenta del administrador principal.  
-- Cada usuario debe tener un rol asignado.
-
-**Postcondición:**  
-La información de usuarios queda actualizada en el sistema.
 
