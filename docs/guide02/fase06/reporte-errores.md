@@ -13,3 +13,18 @@ El detalle de los errores encontrados serán indicados en el Anexo 2 - “Inform
 | **DEF-005** | En la interfaz de gestión de mesas el usuario puede seleccionar cualquier mesa, incluyendo las mesas ocupadas para realizar pedidos.                                                                                                                                             | 1. Iniciar sesión con cualquiera de las credenciales en código (Revisar `MockAuthService.cs`).<br>2. Clickear cualquiera de los botones de mesas en la interfaz (priorizar las mesas señaladas como ocupadas)<br>**Resultado Esperado:** El programa debería indicarle al usuario que la mesa ocupada no está disponible para realizar pedidos.<br>**Resultado Obtenido:** El programa no distingue entre estados de mesa para determinar si la mesa es valida para gestionar un nuevo pedido.<br><br>                                              | 14/11/2025        | Juan Campos            | Corregido                        | Ariana Languasco                                                                          | 14/11/2025      | **Alta**    |
 | **DEF-006** | En la interfaz para generar la boleta, al presionar el botón de Imprimir, no libera la meza, por lo que si una mesa recibe un pedido permanecerá ocupada.                                                                                                                        | 1. Iniciar sesión con las credenciales de algún mesero en código (Revisar `MockAuthService.cs`).<br>2. Clickear mesa 9  de los botones de mesas en la interfaz<br>3. Clickear el botón de "Imprimir"<br>**Resultado Esperado:** Mostrar un mensaje que diga que imprimir no está contemplado para la versión final y que libere la mesa<br>**Resultado Obtenido:** Muestra un mensaje diciendo que la impresión de boletas no está contemplado y la mesa continua ocupada<br><br>                                                                   | 14/11/2025        | Juan Campos            | Corregido                        | Juan Campos                                                                               | 19/11/2025      | **Media**   |
 | **DEF-007** | Al generar un pedido el estado nuevo de la mesa (de disponible a ocupado) no se mostraba en la interfaz a menos que se vuelva a logear                                                                                                                                           | 1. Iniciar sesión con las credenciales de algún mesero en código (Revisar `MockAuthService.cs`).<br>2. Clickear mesa 1 o cualquier mesa disponible de los botones de mesas en la interfaz<br>3. Generar un pedido cualquiera<br>4. Regresar a la pantalla de gestión de mesas<br>**Resultado Esperado:** Al regresar a la interfaz de gestión de mesas la mesa a la que se le acaba de generar un pedido debe cambiar de estado y por lo tanto de color<br>**Resultado Obtenido:** Los estados de las mesas no cambian al generar un pedido<br><br> | 14/11/2025        | Juan Campos            | Corregido                        | Juan Campos                                                                               | 19/11/2025      | **Media**   |
+
+
+**DEF-1, DEF-002, DEF-003, DEF-004:** 
+![Defecto 1](./DEF-001.jpg)
+
+**DEF-005:**
+![Defecto 5 parte 1](./DEF-005_1.jpg)
+![Defecto 5 parte 2](./DEF-005_2.jpg)
+
+**DEF-006:**
+![Defecto 6](./DEF-006.jpg)
+
+**DEF-007:**
+![Defecto 7 parte 1](./DEF-007_1.jpg)
+![Defecto 7 parte 2](./DEF-007_2.jpg)
