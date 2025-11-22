@@ -1,4 +1,12 @@
-## Clases generadas (Opcional)
+📦 Clases Generadas (Opcional)
 
-Clases o tablas generadas a través de base de datos. En caso haya generado el modelo lógico y físico de datos mediante un motor de base de datos, éste deberá ser incluido
-en el acápite "Modelo lógico-físico" de la Fase 03 de la presente guía de aprendizaje.
+En este proyecto no se utilizaron generadores automáticos de clases (como ORM o scaffolding).
+El equipo siguió este flujo de trabajo:
+
+Se diseñó primero el MER, seguido del modelo lógico y físico.
+
+Luego se desarrolló la lógica del sistema en C#.
+
+Finalmente, se implementó la base de datos en MySQL y se integró con el código.
+
+Por esta razón, no se generaron clases automáticamente desde la base de datos, por lo que este apartado no aplica para el presente proyecto.
