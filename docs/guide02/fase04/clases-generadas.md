@@ -1,4 +1,4 @@
-📦 Clases Generadas (Opcional)
+# 📦 Clases Generadas (Opcional)
 
 En este proyecto no se utilizaron generadores automáticos de clases (como ORM o scaffolding).
 El equipo siguió este flujo de trabajo:
