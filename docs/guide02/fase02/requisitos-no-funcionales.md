@@ -5,7 +5,7 @@ Este apartado define las cualidades y restricciones técnicas que debe cumplir e
 *   **Portabilidad y Entorno Operativo:**
     El prototipo debe operar dentro de un ecosistema tecnológico específico y controlado para garantizar su funcionalidad principal. Se requiere:
     *   **Compatibilidad multiplataforma:** El sistema debe ejecutarse en un PC con Windows 10 o 11 (para la vista de cocina/administración) y en tablets Android (para los mozos), utilizando el framework .NET MAUI. Esto asegura una experiencia consistente en los dispositivos clave del flujo del prototipo.
-    *   **Operación en Red Local (LAN):** Es mandatorio que el sistema funcione de forma autónoma dentro de la red local del restaurante, sin requerir conexión a internet. Esto es crucial para la **comunicación en tiempo real** entre la tablet del mozo y la pantalla de cocina, que es el corazón del prototipo.
+    *   **Operación en Red Local (LAN):** Es importante que el sistema funcione de forma autónoma dentro de la red local del restaurante, sin requerir conexión a internet. Esto es crucial para la **comunicación en tiempo real** entre la tablet del mozo y la pantalla de cocina, que es el corazón del prototipo.
 
 *   **Mantenibilidad (Cimiento para el Crecimiento):**
     Dado que el prototipo es la base sobre la cual se construirán funcionalidades futuras (CRUD, roles, reportes), la mantenibilidad es un requisito crítico.
