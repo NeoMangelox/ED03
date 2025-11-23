@@ -6,7 +6,6 @@ En esta sección se detallan los recursos técnicos necesarios para el desarroll
   - PC con **Windows 11** (o Windows 10 actualizado) y al menos 16 GB de RAM.
 	- Si se necesita compilar para Android/iOS, se requiere:
 	    - **Android SDK** (emulador Android, al menos 8 GB RAM).
-	    - **Mac** (opcional, solo si se va a compilar para iOS).
 - **Estaciones de trabajo (desarrollo y pruebas)**  
   - Procesador: Intel i5 o superior  
   - Memoria RAM: 8 GB mínimo  
