@@ -21,7 +21,7 @@ Este apartado detalla los requisitos funcionales mandatorios para el desarrollo 
 
 *   **Menú (Solo Lectura):**
     El sistema debe mostrar un menú estático para que los mozos puedan tomar los pedidos. Este menú debe incluir los platos, sus precios y estar organizado por categorías (Ej: Entradas, Principales, etc.).
-    *   **Simplificación del Prototipo:** No se requiere el módulo CRUD (Crear, Leer, Actualizar, Borrar) para la administración del menú. Para esta versión, el menú puede ser cargado desde un archivo estático (como un JSON) o estar hardcodeado en la aplicación.
+    *   **Simplificación del Prototipo:** No se requiere el módulo CRUD (Crear, Leer, Actualizar, Borrar) para la administración del menú. Para esta versión, el menú puede ser modificado en la DB.
 
 *   **Generación de Cuenta y Cierre de Mesa:**
     Cuando una mesa está **Ocupada**, el mozo debe tener una opción para "Ver Cuenta" o "Cerrar Mesa". La funcionalidad mandatoria es:
