@@ -4,7 +4,7 @@ Este documento define las reglas de negocio que guiarán el desarrollo del siste
 
 ---
 
-## 1. Reglas de Negocio del Producto Mínimo Viable (MVP)
+## 1. Reglas de Negocio del Prototipo
 
 Estas son las reglas que rigen el funcionamiento del **entregable final de la versión 1.0**, enfocadas exclusivamente en el flujo central.
 
