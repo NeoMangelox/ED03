@@ -1,11 +1,11 @@
-## Descripción detallada de requisitos funcionales de mejora del software (Post-MVP v1.0)
+## Descripción detallada de requisitos funcionales de mejora del software
 
 Este apartado detalla las funcionalidades que constituirán las siguientes iteraciones del software, construidas sobre la base sólida del prototipo final a entregar. Estas mejoras abordan las limitaciones y simplificaciones que se establecieron intencionalmente en la versión 1.0 para priorizar el flujo central de operación. Cada punto describe cómo se expandirá la capacidad del sistema para añadir valor, robustez y funcionalidades de negocio más avanzadas.
 
 *   **CRUD de Platos, Precios y Categorías:**
     *   **Mejora sobre el prototipo:** La versión 1.0 utilizaba un menú estático (hardcodeado o desde un archivo JSON). Esta mejora implementará el módulo completo de Crear, Leer, Actualizar y Eliminar (CRUD) para que el administrador pueda gestionar el menú de forma remota y dinámica. Esto incluye añadir nuevos platos, modificar precios, actualizar descripciones y reorganizar categorías, reflejando los cambios al instante en las interfaces de los mozos.
 
-*   **Modificación/Anulación de Pedidos:**
+*   **Modificación de Pedidos:**
     *   **Mejora sobre el prototipo:** El prototipo evitaba esta funcionalidad para simplificar el flujo, requiriendo anular la comanda entera en caso de error. Esta mejora permitirá a los mozos editar o cancelar ítems específicos de un pedido antes de que sea marcado como "Listo" por cocina, ofreciendo la flexibilidad necesaria para corregir errores o cambios del cliente de manera granular y eficiente.
 
 *   **Gestión de Usuarios con Roles:**
@@ -35,4 +35,4 @@ Este apartado detalla las funcionalidades que constituirán las siguientes itera
 *   **Funcionalidades Adicionales de Valor:**
     *   **Promociones y Descuentos Configurables:** Permitirá definir y aplicar automáticamente descuentos o combos (ej. 2x1, happy hour), una capacidad de negocio que el prototipo simplificado no podía manejar.
     *   **Modo Offline Parcial:** Añadirá robustez al sistema, permitiendo continuar operando (tomar pedidos) en caso de caída de la red, sincronizando los datos una vez que la conexión se restablezca.
-    *   **Soporte Multilenguaje para Menú:** Expanderá el alcance del restaurante a clientes internacionales, permitiendo que el menú se muestre en varios idiomas, una mejora sobre el menú estático y monolingüe del MVP.
+    *   **Soporte Multilenguaje para Menú:** Expanderá el alcance del restaurante a clientes internacionales, permitiendo que el menú se muestre en varios idiomas, una mejora sobre el menú estático y monolingüe del prototipo.
