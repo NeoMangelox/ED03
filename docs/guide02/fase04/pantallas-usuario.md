@@ -20,14 +20,14 @@ El mozo visualiza todas las mesas y su estado:
 🔴 Ocupado
 
 Pantalla:
-![Mapa de Mesas](POS-Mozo1.png)
+![Mapa de Mesas](POS-Mesas(1).jpeg)
 
 ## 🍽️ 2.2. Mesa Disponible → Registrar Pedido
 
 Al seleccionar una mesa disponible, se muestra la lista del menú.
 
 Pantalla:
-![Menu](POS-Menu.png)
+![Menu](POS-Menu(1).jpeg)
 
 
 ## 🧾 2.3. Mesa Ocupada → Visualización del Pedido
