@@ -8,7 +8,7 @@ Computadora personal (PC/Laptop) con las siguientes características técnicas:
 
 Procesador: Intel Core i5 / i7 (o equivalente AMD Ryzen)
 
-RAM: 8 GB o más (recomendado 16 GB para compilar MAUI)
+RAM: 4 GB o más (recomendado 16 GB para compilar MAUI)
 
 Almacenamiento: 256 GB / 512 GB SSD
 
