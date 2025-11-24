@@ -27,7 +27,7 @@ Pantalla:
 Al seleccionar una mesa disponible, se muestra la lista del menú.
 
 Pantalla:
-![Menu](POS-Pedido(1).jpeg)
+![Menu](POS-Pedido.png)
 
 
 ## 🧾 2.3. Mesa Ocupada → Visualización del Pedido
@@ -35,7 +35,7 @@ Pantalla:
 Si la mesa tiene un pedido activo, el mozo puede ver los detalles.
 
 Pantalla:
-![Lista del pedido](POS-Pedido.png)
+![Lista del pedido](POS-Pedido(1).jpeg)
 
 
 ## 💵 2.4. Mesa Ocupada → Boleta
