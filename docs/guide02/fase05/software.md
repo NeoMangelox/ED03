@@ -31,6 +31,8 @@ Herramientas:
 
 - Identificación de casos de uso del sistema
 
+- Project Libre para la creación de cronogramas
+
 📍 2. Análisis
 
 Diagrama de casos de uso
@@ -66,6 +68,8 @@ Herramientas utilizadas:
 - MAUI Live Visual Tree
 
 - Edición de íconos e imágenes (.png)
+
+- Bizagi Modeler
 
 Arquitectura del software:
 
