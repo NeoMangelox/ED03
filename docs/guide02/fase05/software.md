@@ -27,10 +27,6 @@ Herramientas:
 
 - Documentos en Word / Google Docs
 
-- Identificación de usuarios (Mozo y Cocina)
-
-- Identificación de casos de uso del sistema
-
 - Project Libre para la creación de cronogramas
 
 📍 2. Análisis
