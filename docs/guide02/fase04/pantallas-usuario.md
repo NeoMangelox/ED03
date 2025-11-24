@@ -27,7 +27,7 @@ Pantalla:
 Al seleccionar una mesa disponible, se muestra la lista del menú.
 
 Pantalla:
-![Menu](POS-Pedido.png)
+![Menu](POS-Menu.png)
 
 
 ## 🧾 2.3. Mesa Ocupada → Visualización del Pedido
