@@ -43,7 +43,7 @@ Pantalla:
 Cuando cocina marca el pedido como Listo, aparece la boleta de la mesa.
 
 Pantalla:
-![Boleta de pago](POS-Comprobante.png)
+![Boleta de pago](POS-Menu(1).jpeg)
 
 
 ## 👨‍🍳 3. Interfaz del Usuario Cocina
